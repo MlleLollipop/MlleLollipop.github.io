@@ -13,15 +13,15 @@ email: your-email@domain.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://mllelollipop.github.io" # the base hostname & protocol for your site
 social:
-  twitter: https://twitter.com/<username>
-  github: https://github.com/<username>
-  linkedin-square: https://linkedin.com/in/<username>
+  twitter: https://twitter.com/MlleLollipop
+  github: https://github.com/MlleLollipop
+  linkedin-square: https://www.linkedin.com/in/mlle-lollipop-92103769
   facebook-official: https://facebook.com/ConfiserieMlleLollipop/
-  google-plus-square: https://plus.google.com/u/0/+<username>
-  #email: /contact/
+  google-plus-square: https://plus.google.com/u/0/+Mllelollipop
+  email: info@mllelollipop.com
   #flickr:
-  #instagram:
-  #youtube-square:
+  instagram: https://www.instagram.com/confiseriemllelollipop/
+  youtube-square: https://www.youtube.com/channel/UCAZBLJ6Rl19cnDeFqf1M-Cg/videosRl19cnDeFqf1M-Cg
   #spotify:
   #stack-overflow:
   #vimeo:
