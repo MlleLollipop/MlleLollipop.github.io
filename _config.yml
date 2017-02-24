@@ -2,11 +2,12 @@
 #
 
 # Site settings
-title: Mlle Lollipop
+title: Confiserie Mlle Lollipop
 description: |
-  Créations gourmandes <br>
-  Confiseries <br>
   Bar à bonbons
+  Confiseries artisanales <br>
+  Créations gourmandes <br>
+
 owner: Mlle Lollipop # or company name
 first_published: 2016 # if migrating another site, the year of your first publish
 email: your-email@domain.com
@@ -18,7 +19,7 @@ social:
   linkedin-square: https://www.linkedin.com/in/mlle-lollipop-92103769
   facebook-official: https://facebook.com/ConfiserieMlleLollipop/
   google-plus-square: https://plus.google.com/u/0/+Mllelollipop
-  email: info@mllelollipop.com
+  #email: info@mllelollipop.com
   #flickr:
   instagram: https://www.instagram.com/confiseriemllelollipop/
   youtube-square: https://www.youtube.com/channel/UCAZBLJ6Rl19cnDeFqf1M-Cg/videosRl19cnDeFqf1M-Cg
