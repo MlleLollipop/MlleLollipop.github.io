@@ -548,6 +548,25 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 	}
 
+	.img-div {
+		height:65%;
+		width:65%;
+		display: block;
+    margin: 0 auto;
+	}
+
+	.img-top {
+		height:10em;
+		width:10em;
+		position: absolute;;
+    top: .3em;
+    left: 0px;
+	}
+
+	img {
+		max-width:100%
+	}
+
 /* List */
 
 	ol {
