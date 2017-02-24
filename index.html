@@ -88,45 +88,52 @@ layout: landing
 						</div>
 					</section>
 
-				<!-- CTA -->
-				<section id="contact" class="wrapper style5 special">
-					<div class="inner">
-						<header class="major">
-							<h3>Contactez-nous</h3>
-						</header>
-						<form method="post" action="https://formspree.io/landofconfusionARK@gmail.com">
-							<div class="row uniform">
-								<div class="6u 12u$(xsmall)">
-									<input type="text" name="name" id="demo-name" value="" placeholder="Nom" />
-								</div>
-								<div class="6u$ 12u$(xsmall)">
-									<input type="email" name="email" id="demo-email" value="" placeholder="Courriel" />
-								</div>
-								<div class="12u$">
-									<div class="select-wrapper">
-										<select name="demo-category" id="demo-category">
-											<option value="">- Catégories -</option>
-											<option value="1">Soumission</option>
-											<option value="1">Expédition</option>
-											<option value="1">Autre</option>
-										</select>
+					<script src="js/form.js"></script>
+
+					<!-- CTA -->
+					<section id="contact" class="wrapper style5 special">
+						<div class="inner">
+							<header class="major">
+								<h3>Contactez-nous</h3>
+							</header>
+							<form id="contact-form" method="POST" action="https://formspree.io/landofconfusionARK@gmail.com" onsubmit="validateContact()">
+								<div class="row uniform">
+									<div class="6u 12u$(xsmall)">
+										<input type="text" name="name" id="demo-name" value="" placeholder="Nom *" required/>
+									</div>
+									<div class="6u$ 12u$(xsmall)">
+										<input type="email" name="email" id="demo-email" value="" placeholder="Courriel *" required/>
+									</div>
+									<div class="12u$">
+										<div class="select-wrapper">
+											<select name="demo-category" id="selectCategory">
+												<option disabled selected value>- Catégories * -</option>
+												<option value="soum">Soumission</option>
+												<option value="exp">Expédition</option>
+												<option value="other">Autre</option>
+											</select>
+										</div>
+									</div>
+								<!--
+									<div class="12u$" id="otherCategory" hidden>
+										<input type="text" name="otherCategory" id="otherCategoryInput" value="" placeholder="Autre *" required/>
+									</div>
+								-->
+									<div class="6u 12u$(small)">
+										<input type="checkbox" id="demo-copy" name="copy">
+										<label for="copy">Envoyez-moi une copie</label>
+									</div>
+									<div class="12u$">
+										<textarea name="message" id="demo-message" placeholder="Écrivez votre message" rows="6"></textarea>
+									</div>
+									<div class="12u$">
+										<ul class="actions">
+											<li><input type="submit" value="Envoyez le message" class="special" /></li>
+											<li><input type="reset" value="Réinitialiser" onclick="resetForm()"/></li>
+										</ul>
 									</div>
 								</div>
-								<div class="6u 12u$(small)">
-									<input type="checkbox" id="demo-copy" name="copy">
-									<label for="copy">Envoyez-moi une copie</label>
-								</div>
-								<div class="12u$">
-									<textarea name="message" id="demo-message" placeholder="Écrivez votre message" rows="6"></textarea>
-								</div>
-								<div class="12u$">
-									<ul class="actions">
-										<li><input type="submit" value="Envoyez le message" class="special" /></li>
-										<li><input type="reset" value="Réinitialiser" /></li>
-									</ul>
-								</div>
-							</div>
-						</form>
-			    </div>
+							</form>
+				    </div>
 
-				</section>
+					</section>
