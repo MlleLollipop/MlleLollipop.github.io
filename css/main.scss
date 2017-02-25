@@ -549,8 +549,9 @@ $baseurl: '{{ site.baseurl }}/images';
 	}
 
 	.img-div {
-		height:65%;
-		width:65%;
+		height:20em;
+		width:40em;
+		max-width:100%;
 		display: block;
     margin: 0 auto;
 	}

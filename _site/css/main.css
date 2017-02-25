@@ -484,7 +484,7 @@ input[type="radio"] + label:before { border-radius: 100%; }
 .image.fit { display: block; margin: 0 0 2em 0; width: 100%; }
 .image.fit img { width: 100%; }
 
-.img-div { height: 65%; width: 65%; display: block; margin: 0 auto; }
+.img-div { height: 20em; width: 40em; max-width: 100%; display: block; margin: 0 auto; }
 
 .img-top { height: 10em; width: 10em; position: absolute; top: .3em; left: 0px; }
 
