@@ -15,7 +15,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://mllelollipop.github.io" # the base hostname & protocol for your site
 social:
   twitter: https://twitter.com/MlleLollipop
-  github: https://github.com/MlleLollipop
+  #github: https://github.com/MlleLollipop
   linkedin-square: https://www.linkedin.com/in/mlle-lollipop-92103769
   facebook-official: https://facebook.com/ConfiserieMlleLollipop/
   google-plus-square: https://plus.google.com/u/0/+Mllelollipop
