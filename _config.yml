@@ -12,7 +12,8 @@ owner: Mlle Lollipop # or company name
 first_published: 2016 # if migrating another site, the year of your first publish
 email: your-email@domain.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://mllelollipop.github.io" # the base hostname & protocol for your site
+url: "http://mllelollipop.com" # the base hostname & protocol for your site
+storeurl: "http://boutique.mllelollipop.com"
 social:
   twitter: https://twitter.com/MlleLollipop
   #github: https://github.com/MlleLollipop
