@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mlle Lollipop</title>
+    <title>Bar à bonbons - Confiserie Mlle Lollipop</title>
     <description>Bar à bonbons &lt;br&gt;
 Confiseries artisanales &lt;br&gt;
 Créations gourmandes &lt;br&gt;
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 26 Feb 2017 16:21:49 -0500</pubDate>
-    <lastBuildDate>Sun, 26 Feb 2017 16:21:49 -0500</lastBuildDate>
+    <pubDate>Wed, 03 May 2017 17:07:27 -0400</pubDate>
+    <lastBuildDate>Wed, 03 May 2017 17:07:27 -0400</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
   </channel>
