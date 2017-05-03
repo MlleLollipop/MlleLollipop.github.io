@@ -2,7 +2,7 @@
 #
 
 # Site settings
-title: Mlle Lollipop
+title: Bar à bonbons - Confiserie Mlle Lollipop
 description: |
   Bar à bonbons <br>
   Confiseries artisanales <br>
@@ -10,7 +10,7 @@ description: |
 
 owner: Mlle Lollipop # or company name
 first_published: 2016 # if migrating another site, the year of your first publish
-email: your-email@domain.com
+email: info@mllelollipop.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://mllelollipop.com" # the base hostname & protocol for your site
 storeurl: "http://boutique.mllelollipop.com"
