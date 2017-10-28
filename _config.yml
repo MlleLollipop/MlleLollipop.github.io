@@ -11,7 +11,8 @@ first_published: 2016 # if migrating another site, the year of your first publis
 email: info@mllelollipop.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://mllelollipop.com" # the base hostname & protocol for your site
-storeurl: "http://boutique.mllelollipop.com"
+#storeurl: "http://boutique.mllelollipop.com"
+storeurl: "https://confiseriemllelollipop.site123.me"
 social:
   twitter: https://twitter.com/MlleLollipop
   #github: https://github.com/MlleLollipop
